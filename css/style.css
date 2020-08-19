@@ -1,0 +1,43 @@
+body {
+    background-color: #8383833f;
+}
+
+.dialogBox {
+    background-color: #fff;
+    padding: 1em 2em;
+    width: 250px;
+    box-shadow: 2px 4px 6px #8080809f;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 3px;
+}
+
+.dialogBox h1 {
+    text-transform: capitalize;
+    font-size: 28px;
+    margin: 0 auto;
+}
+
+.dialogBox p {
+    color: #838383;
+}
+
+.access-button button {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    background-color: #cccccc;
+    padding: .6em;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 2px 7px #8080803f;
+    border-radius: 2px;
+    margin-left: 1.5em;
+}
+
+.access-button #accept {
+    float: right;
+}
